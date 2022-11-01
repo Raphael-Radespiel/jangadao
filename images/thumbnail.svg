@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1280mm"
+   height="769mm"
+   viewBox="0 0 1280 769"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="thumbnail.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="12mm"
+     inkscape:zoom="0.11580646"
+     inkscape:cx="2020.6126"
+     inkscape:cy="1623.3982"
+     inkscape:window-width="1366"
+     inkscape:window-height="749"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="807.05635"
+       y="1288.7207"
+       width="699.27826"
+       height="228.11486"
+       id="rect23988" />
+    <rect
+       x="370.47537"
+       y="1145.1593"
+       width="2976.8524"
+       height="1437.3634"
+       id="rect21218" />
+    <rect
+       x="662.53259"
+       y="588.00138"
+       width="874.70383"
+       height="361.86149"
+       id="rect6950" />
+    <rect
+       x="278.28699"
+       y="378.09196"
+       width="1545.4076"
+       height="511.04235"
+       id="rect5074" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fffce8;fill-opacity:0.996078;stroke:none;stroke-width:0.264583"
+       id="rect145"
+       width="1304.2537"
+       height="798.07196"
+       x="-5.3001084"
+       y="-16.505054" />
+    <path
+       style="fill:#dd403a;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1005.585,-36.595264 C 216.99048,-40.301123 1169.0687,558.71452 -5.3001084,781.56688 H 1298.9536 V -16.505039 Z"
+       id="path1137"
+       sodipodi:nodetypes="ccccc" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text6948"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect6950)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-82.308282,-207.03647)"
+       id="text21216"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:333.333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect21218);fill:#000000;fill-opacity:1;stroke:none"
+       x="1079.8773"
+       y="0"><tspan
+         x="488.37862"
+         y="1440.0817"
+         id="tspan46781"><tspan
+           style="text-align:center;text-anchor:middle;fill:#3e363f"
+           id="tspan46779">Design + Code
+</tspan></tspan><tspan
+         x="977.63595"
+         y="1856.748"
+         id="tspan46785"><tspan
+           style="text-align:center;text-anchor:middle;fill:#3e363f"
+           id="tspan46783">All in one </tspan></tspan><tspan
+         x="996.6789"
+         y="2273.4143"
+         id="tspan46789"><tspan
+           style="text-align:center;text-anchor:middle;fill:#3e363f"
+           id="tspan46787">package!</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text23986"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;white-space:pre;shape-inside:url(#rect23988)" />
+  </g>
+</svg>
