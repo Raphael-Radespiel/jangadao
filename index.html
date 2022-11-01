@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jangadão</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+
+      <img class="navbar__logo" src="./images/jangadao-icon.svg" alt="Logo do site jangadão">
+
+      <ul class="desktop-only navbar__list">
+        <li class="navbar__list__menu">
+          <a href="#menu">Menu</a>
+        </li>
+        <li class="navbar__list__localização">
+          <a href="#localização">Localização</a>
+        </li>
+        <li class="navbar__list__delivery">
+          <a href="WHATSAPP NUMBER API REPLACE !!">Delivery</a>
+        </li>
+      </ul>
+
+      <img class="mobile-only navbar__hamburger" src="./images/bx-menu.svg" alt="Logo de menu que pode ser expandido">
+
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <img class="hero__image" src="./images/pizza.png">
+
+      <article class="hero__content">
+        <h1 class="hero__header">A melhor pizza do Meier.</h1>
+
+        <p class="hero__text">
+          Buffet a quilo, rodizio de pizza e uma variedade de caldos e massas. Aqui você encontra aquela comida sempre bem temperada, com aquele gostinho delicioso e irresistível
+        </p>
+
+        <button class="hero__button">Faça sua Reserva!</button>
+      </article>
+
+    </section>      
+
+    <section id="menu">
+      <!-- SITE CONTENT GENERATED FROM menu.json -->
+      <!-- 
+        CLASS NAMES RECOMENDATION
+        menu__header
+        menu__food-type
+        menu__food-item
+        menu__food-item__header
+        menu__food-item__description
+        menu__food-item__price
+        ALSO ADD THE BUTTON TO THE FOOD TYPE CONTAINER ON THE SCRIPT
+      -->
+    </section>
+
+    <section id="reviews">
+      <div class="review-container">
+        <article class="review-container__item">
+          <img class="review-container__item__image" src="./images/" alt="">
+          <h2 class="review-container__item__header">Leonardo Teixeira</h2>
+          <p class="review-container__item__text">
+            Após a mudança de proprietário, o restaurante passou a ser o melhor 
+            do bairro em seu seguimento, ótimo preço e qualidade. Todos os 
+            funcionários são muito atenciosos e cordiais no tratamento com o 
+            cliente. Não deixem de experimentar o pudim da casa, sem dúvidas, 
+            a melhor sobremesa da região.
+          </p>
+          <div class="social-proof">
+            <p>5.0</p>
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+          </div>
+        </article>
+        <article class="review-container__item">
+          <img class="review-container__item__image" src="./images/" alt="">
+          <h2 class="review-container__item__header">Giselle de Oliveira</h2>
+          <p class="review-container__item__text">
+            Restaurante muito bom! O rodízio bem farto, massa da pizza fininha, 
+            as massas e caldos muito bem preparados e o rodízio ainda conta com 
+            refil - e não é refrigerante de máquina!! Os garçons são 
+            extremamente educados e prestativos. Seu copo não fica vazio nunca! 
+            Atendimento impecável! Jangadão já é tradição aqui, mas pra quem 
+            não conhece, eu recomendo muito!
+          </p>
+          <div class="social-proof">
+            <p>5.0</p>
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+          </div>
+        </article>
+        <article class="review-container__item">
+          <img class="review-container__item__image" src="./images/" alt="">
+          <h2 class="review-container__item__header">Sabrina Nascimento</h2>
+          <p class="review-container__item__text">
+            Bom, bonito e baratinho! Fora o atendimento que é de uma excelência 
+            que parece restaurante de fora do país. Nota 10!
+          </p>
+          <div class="social-proof">
+            <p>5.0</p>
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+            <img src="./images/filled-star.svg" alt="Icone de estrela cheia">
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="localização">
+      <h2 class="localização__header">Onde pode nos encontrar?</h2>
+      <p class="localização__text">Rua Dias da Cruz, 802<br>
+        Engenho de Dentro<br>
+        Rio de Janeiro - RJ
+      </p>
+      <button class="localização__button">Ver rotas!</button>
+      <!-- MAKE IT SO YOU CAN USE THE IFRAM EMBEDED TO SEARCH FOR DIRECTIONS FROM THE SITE -->
+      <iframe class="localizacao__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.267903680006!2d-43.29835348544743!3d-22.903487385013523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d0ca2ed6a95%3A0x209de24d1743649f!2sR.%20Dias%20da%20Cruz%2C%20802%20-%20Engenho%20de%20Dentro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020720-013!5e0!3m2!1spt-PT!2sbr!4v1663372957062!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer__midia-social">
+      <h2>Mídia Social</h2>
+      <ul>
+        <li><img src="./images/facebook.svg" alt="Logo do facebook">Restaurante-Jangadão</li>
+        <li><img src="./images/instagram.svg" alt="Logo do instagram">@restaurantejangadao</li>
+      </ul>
+    </section>
+    <section class="telefone">
+      <h2>Telefones</h2>
+      <ul>
+        <li>Delivery: <a href="DELIVERY WHATS APP THING">(21) 97893-0062</a></li>
+        <li>Reserva: <a href="DELIVERY WHATS APP THING">(21) 2135-2816</a></li>
+      </ul>
+    </section>
+    <img src="./images/jangadao-icon.svg" alt="Logo do restaurante jangadão">
+  </footer>
+  </div>
+</body>
+</html>
