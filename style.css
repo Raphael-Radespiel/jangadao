@@ -26,9 +26,54 @@ a{
   background-color: var(--clr-primary);
 }
 
+.clr-text-light{
+  color: var(--clr-text-light);
+}
+
+/* COMPONENTS */
+.btn{
+  background-color: var(--clr-accent);
+  border: none;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: var(--clr-secondary);
+  color: var(--clr-accent);
+  cursor: pointer;
+}
+
+.btn-border:hover{
+  box-shadow: inset 0px 0px 0px 2px var(--clr-accent);
+}
+
 /* MARGINS AND PADDINGS */
 .p-1{
   padding: 1rem;
+}
+
+.p-2{
+  padding: 2.5rem;
+}
+
+.px-2{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+/* FONT */
+.fs-1{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.fs-2{
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 /* FLEX BOX */
@@ -42,6 +87,18 @@ a{
 
 .align-center{
   align-items: center;
+}
+
+.direction-column{
+  flex-direction: column;
+}
+
+.gap-1{
+  gap: 0.5rem;
+}
+
+.gap-2{
+  gap: 1rem;
 }
 
 .desktop-only{
@@ -64,28 +121,24 @@ a{
   width: 23rem;
 }
 
-.btn{
-  background-color: var(--clr-accent);
-  border: none;
-  color: white;
-  padding: 0.5rem 2.5rem;
-  font-size: 1rem;
-  font-weight: 700;
-  border-radius: 10px;
+.w-full{
+  width: 100%;
 }
 
-.btn:hover{
-  background-color: var(--clr-secondary);
-  color: var(--clr-accent);
-  cursor: pointer;
-}
-
-.btn-border:hover{
-  box-shadow: inset 0px 0px 0px 2px var(--clr-accent);
-}
 
 .clickable:hover{
   cursor: pointer; 
+}
+
+.circle-img{
+  width: 90%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hero-section{
+  background-image: linear-gradient(var(--clr-primary), white, white);
+  height: calc(100vh - 4.5rem);
 }
 
 @media all and (min-width: 48em){
