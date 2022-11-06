@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --clr-primary: #FF9900;
+  --clr-secondary: white;
+  --clr-text: black;
+  --clr-text-light: #3C3C3C;
+  --clr-accent: #00A18C;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/* COLORS */
+.bg-primary{
+  background-color: var(--clr-primary);
+}
+
+/* MARGINS AND PADDINGS */
+.p-1{
+  padding: 1rem;
+}
+
+/* FLEX BOX */
+.flex{
+  display: flex;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.desktop-only{
+  display: none;
+}
+
+.svg-w-1{
+  width: 2.5rem;
+}
+
+.svg-w-2{
+  width: 4rem;
+}
+
+.svg-w-3{
+  width: 9.5rem;
+}
+
+.w-23r{
+  width: 23rem;
+}
+
+.btn{
+  background-color: var(--clr-accent);
+  border: none;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: var(--clr-secondary);
+  color: var(--clr-accent);
+  cursor: pointer;
+}
+
+.btn-border:hover{
+  box-shadow: inset 0px 0px 0px 2px var(--clr-accent);
+}
+
+.clickable:hover{
+  cursor: pointer; 
+}
+
+@media all and (min-width: 48em){
+  .bp-1-px-1{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media all and (min-width: 75em){
+  .mobile-only{
+    display: none;
+  }
+
+  .desktop-only{
+    display: flex;
+  }
+
+  .bp-1-px-1{
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+}
+
+/*
+31em 
+40em
+48em MAKE PADDING LARGER
+63em
+75em
+
+
+*/
