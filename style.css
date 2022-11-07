@@ -143,8 +143,8 @@ a{
   flex-direction: column;
   align-items: center;
   background-image: linear-gradient(var(--clr-primary), white, white);
-  height: calc(100vh - 4.5rem);
   box-sizing: border-box;
+  padding: 0 0 7rem;
 }
 
 .hero-section__container{
@@ -153,6 +153,7 @@ a{
   align-items: center;
   gap: 1rem;
   max-width: 33.5rem;
+  padding: 1rem 2.5rem;
 }
 
 @media all and (min-width: 48em){
@@ -174,7 +175,7 @@ a{
   .hero-section{
     background-color: var(--clr-primary);
     background-image: none;
-    padding: 4rem 14rem;
+    padding: 3rem 0 8rem;
   }
 
   .bp-1-px-1{
@@ -183,20 +184,20 @@ a{
   }
 
   .hero-section__container{
+    width: 51.6rem;
+    max-width: 100%;
     flex: 1;
     flex-direction: row-reverse;
-    max-width: 100%;
+    align-items:  stretch;
     background-color: var(--clr-secondary);
-    border-radius: 4rem;
+    border-radius: 3rem;
     box-shadow: 0px 4px 16px 6px #00000040;
-  }
-
-  .hero-section__container > * {
-    flex: 1;
+    padding: 3rem 4rem;
   }
 
   .hero-section__container > article{
     align-items: flex-start;
+    padding-top: 2rem;
   }
 
   .hero-section__container > article > h1{
@@ -205,15 +206,27 @@ a{
     line-height: 1;
   }
 
+  .hero-section__container > article > p{
+    font-size: 1.1rem;
+  }
+
   .hero-section__container > article > .btn{
     font-size: 1rem;
     padding: 1rem 2.2rem;
     width: fit-content;
+    margin-top: 2rem;
   }
 
   .line-break:before{
     content: "\A";
     display: block;
+  }
+
+  .circle-img{
+    width: 70rem; 
+    height: 24rem;
+    background-size: 110%;
+    background-image: url("./images/pizza-1.png");
   }
 }
 
