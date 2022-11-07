@@ -1,0 +1,53 @@
+[
+  {
+    "foodType": "Massas",
+    "menuItems": [
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["meia", "21.00", "inteira", "40.00"]
+      },
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": false,
+        "price": ["21.02"]
+      }
+    ]
+  },
+  {
+    "foodType": "Carnes",
+    "menuItems": [
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": false,
+        "price": ["21.02"]
+      }, 
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": false,
+        "price": ["21.02"]
+      }
+    ]
+  },
+  {
+    "foodType": "Caldos",
+    "menuItems": [
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["meia", "21.00", "inteira", "40.00"]
+      },
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["meia", "21.00", "inteira", "40.00"]
+      }
+    ]
+  }
+]
