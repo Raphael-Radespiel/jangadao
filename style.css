@@ -58,6 +58,11 @@ a{
 
 .menu-container{
   padding: 1.5rem;
+  max-width: 45rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .menu__food-type{
@@ -75,6 +80,32 @@ a{
 .menu__food-type h2{
   font-size: 1rem;
   color: var(--clr-secondary);
+}
+
+.menu__food-item-container{
+  overflow: hidden;
+  max-height: 0;
+}
+
+.menu__food-item{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.menu__food-item__content{
+  flex: 1 1 auto;
+  background-color: #E9E9E9;
+}
+
+.menu__food-item__price{
+  display: flex;
+  margin-left: auto;
+  background-color: #E9E9E9;
+  width: 25%;
+}
+
+.menu__food-item__price p{
+  width: 50%;
 }
 
 /* MARGINS AND PADDINGS */
@@ -265,3 +296,48 @@ a{
 
 
 */
+
+/* ANIMATIONS */
+.spin-arrow{
+  animation: spin-arrow 0.2s forwards;
+}
+
+.unspin-arrow{
+  animation: unspin-arrow 0.2s forwards;
+}
+
+.open-food-item-container{
+  transition: max-height 0.2s;
+}
+
+.close-food-item-container{
+  animation: close-food-container 0.2s forwards;
+  transition: max-height 0.2s;
+}
+
+@keyframes spin-arrow{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes unspin-arrow{
+  from{
+    transform: rotate(90deg);
+  }
+  to{
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes close-menu-item{
+  from{
+    opacity: 100%;
+  }
+  to{
+    opacity: 0%;
+  }
+}

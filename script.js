@@ -17,6 +17,36 @@ async function createMenu(){
     let menuType = createMenuType(menuArray[i]);
     let menuItems = createMenuItems(menuArray[i].menuItems);
 
+    // Add Event Listener 
+    menuType.addEventListener("click", (e) => {
+
+      if(e.target.dataset.open == "true"){
+        e.target.dataset.open = "false";
+
+        menuItems.style.maxHeight = "0px";
+
+        menuItems.classList.add("close-food-item-container");
+        menuItems.classList.remove("open-food-item-container");
+
+        menuType.querySelector("img").classList.remove("spin-arrow");
+        menuType.querySelector("img").classList.add("unspin-arrow");
+      }
+      else{
+        e.target.dataset.open = "true";
+
+        menuItems.style.display = "block";
+        menuItems.style.maxHeight = menuItems.scrollHeight + "px";
+        
+        menuItems.classList.remove("close-food-item-container");
+        menuItems.classList.add("open-food-item-container");
+
+        menuType.querySelector("img").classList.remove("unspin-arrow");
+        menuType.querySelector("img").classList.add("spin-arrow");
+      }
+
+      console.log(e.target.dataset.open);
+    });
+
     menuContainer.append(menuType, menuItems);
   }
 
@@ -34,6 +64,8 @@ function createMenuType(menuData){
   let menuFoodTypeArrow = document.createElement("img"); 
   menuFoodTypeArrow.src = "./images/arrow.svg";
   menuFoodType.append(menuFoodTypeArrow);
+
+  menuFoodType.dataset.open = false;
   
   return menuFoodType;
 }
@@ -47,6 +79,9 @@ function createMenuItems(menuItemsArray){
     let menuItemElement = document.createElement("div");
     menuItemElement.classList.add("menu__food-item");
 
+    let menuItemContent = document.createElement("div");
+    menuItemContent.classList.add("menu__food-item__content");
+
     let menuItemTitle = document.createElement("h2");
     menuItemTitle.textContent = menuItemsArray[i].itemTitle;
 
@@ -54,21 +89,25 @@ function createMenuItems(menuItemsArray){
     menuItemDescription.textContent = menuItemsArray[i].itemDescription;
 
     let menuItemPrice = document.createElement("div"); 
+    menuItemPrice.classList.add("menu__food-item__price");
 
     if(menuItemsArray[i].hasMultiplePrices){
+      // TODO FIX PRICE LENGTH HANDLING
       for(let j = 0; j < menuItemsArray[i].price.length; j += 2){
         let menuItemPriceElement = document.createElement("p");
-        menuItemPriceElement.textContent = menuItemsArray[i].price[j] +
-          ": " + menuItemsArray[i].price[j + 1]; 
+        menuItemPriceElement.textContent = menuItemsArray[i].price[j + 1]; 
         menuItemPrice.append(menuItemPriceElement);
       }
     }
     else{
       let menuItemPriceElement = document.createElement("p");
+      let menuItemPriceEmpty = document.createElement("p");
       menuItemPriceElement.textContent = menuItemsArray[i].price[0];
-      menuItemPrice.append(menuItemPriceElement);
+      menuItemPriceEmpty.textContent = " ";
+      menuItemPrice.append(menuItemPriceEmpty, menuItemPriceElement);
     }
-    menuItemElement.append(menuItemTitle, menuItemDescription, menuItemPrice);
+    menuItemContent.append(menuItemTitle, menuItemDescription);
+    menuItemElement.append(menuItemContent, menuItemPrice);
     menuItemContainer.append(menuItemElement);
   }
 
