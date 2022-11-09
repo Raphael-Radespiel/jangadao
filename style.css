@@ -68,6 +68,10 @@ a{
   border-radius: 16px;
 }
 
+.menu__food-type:hover{
+  cursor: pointer;
+}
+
 .menu__food-type h2{
   font-size: 1rem;
   color: var(--clr-secondary);

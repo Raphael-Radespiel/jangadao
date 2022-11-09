@@ -4,80 +4,75 @@ menuTitle.textContent = "Menu";
 menuTitle.classList.add("menu-header");
 menuElement.append(menuTitle);
 
-// MENU FOOD-TYPE
+async function createMenu(){
+  let response = await fetch('menu.json');
+  let menuArray = await response.json();
 
-fetch('menu.json').then(res => {
-  if(res.ok){
-    console.log("Successful");
-  }
-  else{
-    console.log("Not Successful");
-  }
-  return res.json();
-}).then(data => {
-  
-  // Food Container
+  // Create Menu Container
   let menuContainer = document.createElement("div");
   menuContainer.classList.add("menu-container");
+  
+  // Loop through every menu item 
+  for(let i = 0; i < menuArray.length; i++){
+    let menuType = createMenuType(menuArray[i]);
+    let menuItems = createMenuItems(menuArray[i].menuItems);
 
-  // FOR EVERY MENU ITEM FOOD TYPE
-  for(let i = 0; i < data.length; i++){
-    
-    // Create Food Type black bar
-    let menuFoodType = document.createElement("div");
-    menuFoodType.classList.add("menu__food-type");
+    menuContainer.append(menuType, menuItems);
+  }
 
-    // Food Type header
-    let menuFoodTypeHeader = document.createElement("h2"); 
-    menuFoodTypeHeader.textContent = data[i].foodType;
-    menuFoodType.append(menuFoodTypeHeader);
-    
-    // Food Type arrow 
-    let menuFoodTypeArrow = document.createElement("img"); 
-    menuFoodTypeArrow.src = "./images/arrow.svg";
-    menuFoodType.append(menuFoodTypeArrow);
+  menuElement.append(menuContainer);
+}
 
-    // APPEND TO MENU
-    menuContainer.append(menuFoodType);
-    // NOT YET, ONLY APPEND AFTER 
+function createMenuType(menuData){
+  let menuFoodType = document.createElement("div");
+  menuFoodType.classList.add("menu__food-type");
+  
+  let menuFoodTypeHeader = document.createElement("h2"); 
+  menuFoodTypeHeader.textContent = menuData.foodType;
+  menuFoodType.append(menuFoodTypeHeader);
+  
+  let menuFoodTypeArrow = document.createElement("img"); 
+  menuFoodTypeArrow.src = "./images/arrow.svg";
+  menuFoodType.append(menuFoodTypeArrow);
+  
+  return menuFoodType;
+}
 
-    // FOOD ITEM
-    let menuItemsArray = data[i].menuItems;
-    let menuItemContainer = document.createElement("div");
-    menuItemContainer.classList.add("menu__food-item-container");
+function createMenuItems(menuItemsArray){
+  let menuItemContainer = document.createElement("div");
+  menuItemContainer.classList.add("menu__food-item-container");
 
-    // FOR EVERY FOOD ITEM
-    for(let j = 0; j < menuItemsArray.length; j++){
-      let menuItemElement = document.createElement("div");
-      menuItemElement.classList.add("menu__food-item");
-      let menuItemTitle = document.createElement("h2");
-      menuItemTitle.textContent = menuItemsArray[j].itemTitle;
-      let menuItemDescription = document.createElement("p");
-      menuItemDescription.textContent = menuItemsArray[j].itemDescription;
+  for(let i = 0; i < menuItemsArray.length; i++){
 
-      let menuItemPrice = document.createElement("div"); 
-      if(menuItemsArray[j].hasMultiplePrices){
-        for(let p = 0; p < menuItemsArray[j].price.length; p += 2){
-          let menuItemPriceElement = document.createElement("p");
-          menuItemPriceElement.textContent = menuItemsArray[j].price[p] +
-            ": " + menuItemsArray[j].price[p + 1]; 
-          menuItemPrice.append(menuItemPriceElement);
-        }
-      }
-      else{
+    let menuItemElement = document.createElement("div");
+    menuItemElement.classList.add("menu__food-item");
+
+    let menuItemTitle = document.createElement("h2");
+    menuItemTitle.textContent = menuItemsArray[i].itemTitle;
+
+    let menuItemDescription = document.createElement("p");
+    menuItemDescription.textContent = menuItemsArray[i].itemDescription;
+
+    let menuItemPrice = document.createElement("div"); 
+
+    if(menuItemsArray[i].hasMultiplePrices){
+      for(let j = 0; j < menuItemsArray[i].price.length; j += 2){
         let menuItemPriceElement = document.createElement("p");
-        menuItemPriceElement.textContent = menuItemsArray[j].price[0];
+        menuItemPriceElement.textContent = menuItemsArray[i].price[j] +
+          ": " + menuItemsArray[i].price[j + 1]; 
         menuItemPrice.append(menuItemPriceElement);
       }
-
-      menuItemElement.append(menuItemTitle, menuItemDescription, menuItemPrice);
-
-      menuItemContainer.append(menuItemElement);
     }
-    
-    menuContainer.append(menuItemContainer);
-    menuElement.append(menuContainer);
+    else{
+      let menuItemPriceElement = document.createElement("p");
+      menuItemPriceElement.textContent = menuItemsArray[i].price[0];
+      menuItemPrice.append(menuItemPriceElement);
+    }
+    menuItemElement.append(menuItemTitle, menuItemDescription, menuItemPrice);
+    menuItemContainer.append(menuItemElement);
   }
-});
 
+  return menuItemContainer;
+}
 
+createMenu();
