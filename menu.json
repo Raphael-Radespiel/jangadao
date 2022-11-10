@@ -1,12 +1,13 @@
 [
   {
     "foodType": "Massas",
+    "priceTypes": ["Meia", "Inteira"],
     "menuItems": [
       {
         "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
+        "itemDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt pulvinar elit",
         "hasMultiplePrices": true,
-        "price": ["meia", "21.00", "inteira", "40.00"]
+        "price": ["21.00", "40.00"]
       },
       {
         "itemTitle": "Lorem Ipsum",
@@ -18,6 +19,7 @@
   },
   {
     "foodType": "Carnes",
+    "priceTypes": ["Inteira"],
     "menuItems": [
       {
         "itemTitle": "Lorem Ipsum",
@@ -35,18 +37,19 @@
   },
   {
     "foodType": "Caldos",
+    "priceTypes": ["Meia", "Inteira"],
     "menuItems": [
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
         "hasMultiplePrices": true,
-        "price": ["meia", "21.00", "inteira", "40.00"]
+        "price": ["21.00", "40.00"]
       },
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
         "hasMultiplePrices": true,
-        "price": ["meia", "21.00", "inteira", "40.00"]
+        "price": ["21.00", "40.00"]
       }
     ]
   }
