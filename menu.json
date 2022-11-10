@@ -1,13 +1,43 @@
 [
   {
-    "foodType": "Massas",
+    "foodType": "Petiscos",
     "priceTypes": ["Meia", "Inteira"],
     "menuItems": [
       {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt pulvinar elit",
+        "itemTitle": "Aipim Frito",
+        "itemDescription": "",
         "hasMultiplePrices": true,
-        "price": ["21.00", "40.00"]
+        "price": ["16.90", "29.90"]
+      },
+      {
+        "itemTitle": "Batata Frita Simples",
+        "itemDescription": "",
+        "hasMultiplePrices": true,
+        "price": ["17.90", "26.90"]
+      },
+      {
+        "itemTitle": "Batata Frita da Casa",
+        "itemDescription": "Batata frita com linguiça e queijo",
+        "hasMultiplePrices": true,
+        "price": ["24.90", "39.90"]
+      },
+      {
+        "itemTitle": "Aipim frito",
+        "itemDescription": "",
+        "hasMultiplePrices": true,
+        "price": ["16.90", "29.90"]
+      },
+      {
+        "itemTitle": "Aipim frito",
+        "itemDescription": "",
+        "hasMultiplePrices": true,
+        "price": ["16.90", "29.90"]
+      },
+      {
+        "itemTitle": "Aipim frito",
+        "itemDescription": "",
+        "hasMultiplePrices": true,
+        "price": ["16.90", "29.90"]
       },
       {
         "itemTitle": "Lorem Ipsum",
@@ -19,7 +49,7 @@
   },
   {
     "foodType": "Carnes",
-    "priceTypes": ["Inteira"],
+    "priceTypes": ["", "Inteira"],
     "menuItems": [
       {
         "itemTitle": "Lorem Ipsum",
