@@ -48,7 +48,7 @@
     ]
   },
   {
-    "foodType": "Carnes",
+    "foodType": "Guarnições",
     "priceTypes": ["", "Inteira"],
     "menuItems": [
       {
@@ -66,7 +66,79 @@
     ]
   },
   {
-    "foodType": "Caldos",
+    "foodType": "Massas",
+    "priceTypes": ["Meia", "Inteira"],
+    "menuItems": [
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      },
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      }
+    ]
+  },
+  {
+    "foodType": "Carnes",
+    "priceTypes": ["Meia", "Inteira"],
+    "menuItems": [
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      },
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      }
+    ]
+  },
+  {
+    "foodType": "Caldos e Sopas",
+    "priceTypes": ["Meia", "Inteira"],
+    "menuItems": [
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      },
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      }
+    ]
+  },
+  {
+    "foodType": "Pratos Executivos",
+    "priceTypes": ["Meia", "Inteira"],
+    "menuItems": [
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      },
+      {
+        "itemTitle": "Lorem Ipsum",
+        "itemDescription": "blah blah",
+        "hasMultiplePrices": true,
+        "price": ["21.00", "40.00"]
+      }
+    ]
+  },
+  {
+    "foodType": "Bebidas",
     "priceTypes": ["Meia", "Inteira"],
     "menuItems": [
       {
