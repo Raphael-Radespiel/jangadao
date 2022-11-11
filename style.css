@@ -279,6 +279,49 @@ footer li{
   padding: 1rem 2.5rem;
 }
 
+/* LOCATION */
+#location{
+  margin: 6rem 2rem;
+}
+
+.location{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border: 4px solid var(--clr-accent);
+  border-radius: 64px;
+  padding: 2rem 3rem;
+  max-width: 22rem;
+  margin: auto;
+}
+
+.location__header{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#location p{
+  color: #4D4D4D;
+  text-align: center;
+}
+
+.location__button{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: 2px solid var(--clr-accent);
+  border-radius: 64px;
+  padding: 0.5rem;
+  background-color: white;
+  color: black;
+}
+
+.location__button:hover{
+  cursor: pointer;
+  background-color: var(--clr-accent);
+  color: white;
+}
+
 @media all and (min-width: 48em){
   .bp-1-px-1{
     padding-left: 4rem;
@@ -375,6 +418,24 @@ footer li{
   .footer__content{
     flex-direction: row;
     gap: 8rem;
+  }
+
+  /* LOCATION */
+  .location{
+    gap: 1rem;
+    padding: 3rem;
+    border: 6px solid var(--clr-accent);
+    width: 30rem;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .location__header{
+    font-size: 3rem;
+  }
+
+  .location__button{
+    width: 12rem;
   }
 }
 
