@@ -6,44 +6,47 @@
       {
         "itemTitle": "Aipim Frito",
         "itemDescription": "",
-        "hasMultiplePrices": true,
         "price": ["16.90", "29.90"]
       },
       {
         "itemTitle": "Batata Frita Simples",
         "itemDescription": "",
-        "hasMultiplePrices": true,
         "price": ["17.90", "26.90"]
       },
       {
         "itemTitle": "Batata Frita da Casa",
         "itemDescription": "Batata frita com linguiça e queijo",
-        "hasMultiplePrices": true,
         "price": ["24.90", "39.90"]
       },
       {
-        "itemTitle": "Aipim frito",
+        "itemTitle": "Frango a Passarinho",
         "itemDescription": "",
-        "hasMultiplePrices": true,
-        "price": ["16.90", "29.90"]
+        "price": ["24.90", "42.90"]
       },
       {
-        "itemTitle": "Aipim frito",
+        "itemTitle": "Contra Filé Aperitivo",
         "itemDescription": "",
-        "hasMultiplePrices": true,
-        "price": ["16.90", "29.90"]
+        "price": ["54.90", "74.90"]
       },
       {
-        "itemTitle": "Aipim frito",
+        "itemTitle": "Contra Filé Aperitivo com Fritas",
         "itemDescription": "",
-        "hasMultiplePrices": true,
-        "price": ["16.90", "29.90"]
+        "price": ["39.90", "59.90"]
       },
       {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "hasMultiplePrices": false,
-        "price": ["21.02"]
+        "itemTitle": "Gurjão de Peixe",
+        "itemDescription": "",
+        "price": ["29.90", "49.90"]
+      },
+      {
+        "itemTitle": "Gurjão de Frango",
+        "itemDescription": "",
+        "price": ["24.90", "42.90"]
+      },
+      {
+        "itemTitle": "Carne Seca com Aipim",
+        "itemDescription": "",
+        "price": ["39.90", "59.90"]
       }
     ]
   },
@@ -54,14 +57,12 @@
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": false,
-        "price": ["21.02"]
+        "price": ["", "21.02"]
       }, 
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": false,
-        "price": ["21.02"]
+        "price": ["", "21.02"]
       }
     ]
   },
@@ -72,13 +73,11 @@
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       },
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       }
     ]
@@ -90,13 +89,11 @@
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       },
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       }
     ]
@@ -108,13 +105,11 @@
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       },
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       }
     ]
@@ -126,13 +121,11 @@
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       },
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       }
     ]
@@ -144,13 +137,11 @@
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       },
       {
         "itemTitle": "Lorem Ipsum",
         "itemDescription": "blah blah",
-        "hasMultiplePrices": true,
         "price": ["21.00", "40.00"]
       }
     ]

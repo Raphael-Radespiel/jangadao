@@ -81,21 +81,12 @@ function createMenuItems(menuItemsArray, priceTypes){
     let menuItemPrice = document.createElement("div"); 
     menuItemPrice.classList.add("menu__food-item__price");
 
-    if(menuItemsArray[i].hasMultiplePrices){
-      // TODO FIX PRICE LENGTH HANDLING
-      for(let j = 0; j < menuItemsArray[i].price.length; j ++){
-        let menuItemPriceElement = document.createElement("p");
-        menuItemPriceElement.textContent = menuItemsArray[i].price[j]; 
-        menuItemPrice.append(menuItemPriceElement);
-      }
-    }
-    else{
+    for(let j = 0; j < menuItemsArray[i].price.length; j ++){
       let menuItemPriceElement = document.createElement("p");
-      let menuItemPriceEmpty = document.createElement("p");
-      menuItemPriceElement.textContent = menuItemsArray[i].price[0];
-      menuItemPriceEmpty.textContent = " ";
-      menuItemPrice.append(menuItemPriceEmpty, menuItemPriceElement);
+      menuItemPriceElement.textContent = menuItemsArray[i].price[j]; 
+      menuItemPrice.append(menuItemPriceElement);
     }
+
     menuItemContent.append(menuItemTitle, menuItemDescription);
     menuItemElement.append(menuItemContent, menuItemPrice);
     menuItemContainer.append(menuItemElement);
