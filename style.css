@@ -514,6 +514,10 @@ footer li{
   }
 
   /* MENU COMPONENTS */
+  #menu{
+    margin: 8rem 0;
+  }
+
   .menu-header{
     font-size: 2.5rem;
     font-weight: 900;
@@ -533,7 +537,16 @@ footer li{
     gap: 8rem;
   }
 
+  /* REVIEWS */
+  #reviews{
+    padding: 8rem 0;
+  }
+
   /* LOCATION */
+  #location{
+    margin: 8rem 0; 
+  }
+
   .location{
     gap: 1rem;
     padding: 3rem;
