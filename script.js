@@ -75,8 +75,14 @@ function createMenuItems(menuItemsArray, priceTypes){
     let menuItemTitle = document.createElement("h2");
     menuItemTitle.textContent = menuItemsArray[i].itemTitle;
 
-    let menuItemDescription = document.createElement("p");
-    menuItemDescription.textContent = menuItemsArray[i].itemDescription;
+    menuItemContent.append(menuItemTitle);
+
+    if(menuItemsArray[i].itemDescription != ""){
+      let menuItemDescription = document.createElement("p");
+      menuItemDescription.textContent = menuItemsArray[i].itemDescription;
+
+      menuItemContent.append(menuItemDescription);
+    }
 
     let menuItemPrice = document.createElement("div"); 
     menuItemPrice.classList.add("menu__food-item__price");
@@ -87,7 +93,6 @@ function createMenuItems(menuItemsArray, priceTypes){
       menuItemPrice.append(menuItemPriceElement);
     }
 
-    menuItemContent.append(menuItemTitle, menuItemDescription);
     menuItemElement.append(menuItemContent, menuItemPrice);
     menuItemContainer.append(menuItemElement);
   }

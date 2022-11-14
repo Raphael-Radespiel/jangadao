@@ -15,7 +15,7 @@
       },
       {
         "itemTitle": "Batata Frita da Casa",
-        "itemDescription": "Batata frita com linguiça e queijo",
+        "itemDescription": "",
         "price": ["24.90", "39.90"]
       },
       {
@@ -47,6 +47,51 @@
         "itemTitle": "Carne Seca com Aipim",
         "itemDescription": "",
         "price": ["39.90", "59.90"]
+      },
+      {
+        "itemTitle": "Gurjão de Frango",
+        "itemDescription": "",
+        "price": ["24.90", "42.90"]
+      },
+      {
+        "itemTitle": "Bolinho de Bacalhau (10 unidades)",
+        "itemDescription": "",
+        "price": ["", "60.00"]
+      },
+      {
+        "itemTitle": "Linguiça Calabresa",
+        "itemDescription": "",
+        "price": ["14.90", "25.90"]
+      },
+      {
+        "itemTitle": "Salaminho",
+        "itemDescription": "",
+        "price": ["29.90", "49.90"]
+      },
+      {
+        "itemTitle": "Azeitona",
+        "itemDescription": "",
+        "price": ["12.90", "26.90"]
+      },
+      {
+        "itemTitle": "Provolone a Milanesa",
+        "itemDescription": "",
+        "price": ["", "49.90"]
+      },
+      {
+        "itemTitle": "Picanha Aperitivo",
+        "itemDescription": "",
+        "price": ["99.00", "150.00"]
+      },
+      {
+        "itemTitle": "Picanha Aperitivo com Fritas",
+        "itemDescription": "",
+        "price": ["89.90", "130.00"]
+      },
+      {
+        "itemTitle": "Pastel de carne/queijo (1 unidade)",
+        "itemDescription": "",
+        "price": ["4.99", ""]
       }
     ]
   },
