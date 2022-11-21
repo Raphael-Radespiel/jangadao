@@ -1,58 +1,200 @@
 [
   {
+    "foodType": "Pizzas",
+    "priceTypes": ["Média", "Grande", "Família"],
+    "menuItems": [
+      {
+        "itemTitle": "Mussarela",
+        "itemDescription": "Mussarela e oregano",
+        "price": ["28.00", "35.00", "52.00"]
+      },
+      {
+        "itemTitle": "Calabresa",
+        "itemDescription": "Mussarela, calabresa e cebola",
+        "price": ["31.00", "39.00", "54.00"]
+      },
+      {
+        "itemTitle": "Calabresa Moderna",
+        "itemDescription": "Mussarela, calabresa, ovo, cebola e parmessão",
+        "price": ["33.00", "42.00", "56.00"]
+      },
+      {
+        "itemTitle": "Alho",
+        "itemDescription": "Mussarela e alho",
+        "price": ["29.00", "36.00", "53.00"]
+      },
+      {
+        "itemTitle": "Peito de Peru",
+        "itemDescription": "Mussarela e peito de peru",
+        "price": ["35.00", "41.00", "54.00"]
+      },
+      {
+        "itemTitle": "Peito de Peru com Palmito",
+        "itemDescription": "Mussarela, peito de peru e palmito",
+        "price": ["36.00", "42.00", "55.00"]
+      },
+      {
+        "itemTitle": "Presunto",
+        "itemDescription": "Mussarela, presunto e azeitona",
+        "price": ["33.00", "40.00", "53.00"]
+      },
+      {
+        "itemTitle": "Presunto com Ovos",
+        "itemDescription": "Mussarela, presunto e ovos",
+        "price": ["35.00", "41.00", "54.00"]
+      },
+      {
+        "itemTitle": "Presunto com Catupiry",
+        "itemDescription": "Mussarela, presunto e catupiry",
+        "price": ["34.00", "41.00", "53.00"]
+      },
+      {
+        "itemTitle": "Bacon",
+        "itemDescription": "Mussarela e bacon",
+        "price": ["29.00", "36.00", "53.00"]
+      },
+      {
+        "itemTitle": "Bacon com Ovos",
+        "itemDescription": "Mussarela, bacon e ovos",
+        "price": ["31.00", "36.00", "54.00"]
+      },
+      {
+        "itemTitle": "Bacon a Moda",
+        "itemDescription": "Mussarela, bacon, ovos e cheddar/ catupiry",
+        "price": ["32.00", "38.00", "55.00"]
+      },
+      {
+        "itemTitle": "Napolitana",
+        "itemDescription": "Mussarela e tomate",
+        "price": ["29.00", "36.00", "53.00"]
+      },
+      {
+        "itemTitle": "Marguerita",
+        "itemDescription": "Mussarela, tomate e manjericão",
+        "price": ["34.00", "40.00", "53.00"]
+      },
+      {
+        "itemTitle": "Mista",
+        "itemDescription": "Mussarela, presunto, calabresa e champignon",
+        "price": ["39.00", "48.00", "62.00"]
+      },
+      {
+        "itemTitle": "Veneza",
+        "itemDescription": "Mussarela, presunto e champignon",
+        "price": ["38.00", "47.00", "61.00"]
+      },
+      {
+        "itemTitle": "Atum",
+        "itemDescription": "Mussarela, atum, azeitona e cebola",
+        "price": ["39.00", "45.00", "56.00"]
+      },
+      {
+        "itemTitle": "Atum com Catupiry",
+        "itemDescription": "Mussarela, atum e catupiry",
+        "price": ["42.00", "47.00", "57.00"]
+      },
+      {
+        "itemTitle": "Frango com Catupiry",
+        "itemDescription": "Mussarela, frango e catupiry",
+        "price": ["36.00", "40.00", "57.00"]
+      },
+      {
+        "itemTitle": "Frango com Cheddar",
+        "itemDescription": "Mussarela, frango e cheddar",
+        "price": ["36.00", "40.00", "57.00"]
+      },
+      {
+        "itemTitle": "Frango a Moda",
+        "itemDescription": "Mussarela, frango, bacon e catupiry",
+        "price": ["37.00", "43.00", "57.00"]
+      },
+      {
+        "itemTitle": "Carne Seca",
+        "itemDescription": "Mussarela, carne seca e cebola",
+        "price": ["37.00", "45.00", "57.00"]
+      },
+      {
+        "itemTitle": "Carne Seca com Catupiry",
+        "itemDescription": "Mussarela, carne seca e catupiry",
+        "price": ["38.00", "47.00", "58.00"]
+      },
+      {
+        "itemTitle": "Salaminho",
+        "itemDescription": "Mussarela e salaminho",
+        "price": ["37.00", "45.00", "59.00"]
+      },
+      {
+        "itemTitle": "Strogonoff de Frango",
+        "itemDescription": "Mussarela e strogonoff",
+        "price": ["40.00", "49.00", "62.00"]
+      },
+      {
+        "itemTitle": "Camarão",
+        "itemDescription": "Mussarela e camarão",
+        "price": ["39.00", "45.00", "56.00"]
+      },
+      {
+        "itemTitle": "Champignon",
+        "itemDescription": "Mussarela e champignon",
+        "price": ["37.00", "45.00", "55.00"]
+      },
+      {
+        "itemTitle": "Palmito",
+        "itemDescription": "Mussarela e palmito",
+        "price": ["37.00", "45.00", "55.00"]
+      },
+      {
+        "itemTitle": "Três Queijos",
+        "itemDescription": "Mussarela, catypiry e parmessão",
+        "price": ["36.00", "42.00", "55.00"]
+      },
+      {
+        "itemTitle": "Quatro Queijos",
+        "itemDescription": "Mussarela, catypiry, parmessão e provolone",
+        "price": ["38.00", "44.00", "57.00"]
+      },
+      {
+        "itemTitle": "Batata Frita",
+        "itemDescription": "Mussarela e batata frita",
+        "price": ["29.00", "36.00", "53.00"]
+      },
+      {
+        "itemTitle": "Batata Frita com Bacon",
+        "itemDescription": "Mussarela, batata frita e bacon",
+        "price": ["32.00", "38.00", "56.00"]
+      },
+      {
+        "itemTitle": "Portuguesa",
+        "itemDescription": "Mussarela, azeitona, cebola, calabresa, pimentão ervilha, tomate e presunto",
+        "price": ["39.00", "45.00", "59.00"]
+      },
+      {
+        "itemTitle": "Vegetariana",
+        "itemDescription": "Azeitona, cebola, alho, pimentão, ervilha, tomate e palmito",
+        "price": ["40.00", "49.00", "62.00"]
+      },
+      {
+        "itemTitle": "Cachorro Quente",
+        "itemDescription": "Mussarela, tomate, cebola, calabresa e molho de tomate",
+        "price": ["36.00", "40.00", "57.00"]
+      }
+    ]
+  },
+  {
+    "foodType": "Pizzas Doces",
+    "priceTypes": ["Média", "Grande", "Família"],
+    "menuItems": [
+      {
+        "itemTitle": "Bolinho de Bacalhau (10 unidades)",
+        "itemDescription": "",
+        "price": ["", "60.00"]
+      }
+    ]
+  },
+  {
     "foodType": "Petiscos",
     "priceTypes": ["Meia", "Inteira"],
     "menuItems": [
-      {
-        "itemTitle": "Aipim Frito",
-        "itemDescription": "",
-        "price": ["16.90", "29.90"]
-      },
-      {
-        "itemTitle": "Batata Frita Simples",
-        "itemDescription": "",
-        "price": ["17.90", "26.90"]
-      },
-      {
-        "itemTitle": "Batata Frita da Casa",
-        "itemDescription": "",
-        "price": ["24.90", "39.90"]
-      },
-      {
-        "itemTitle": "Frango a Passarinho",
-        "itemDescription": "",
-        "price": ["24.90", "42.90"]
-      },
-      {
-        "itemTitle": "Contra Filé Aperitivo",
-        "itemDescription": "",
-        "price": ["54.90", "74.90"]
-      },
-      {
-        "itemTitle": "Contra Filé Aperitivo com Fritas",
-        "itemDescription": "",
-        "price": ["39.90", "59.90"]
-      },
-      {
-        "itemTitle": "Gurjão de Peixe",
-        "itemDescription": "",
-        "price": ["29.90", "49.90"]
-      },
-      {
-        "itemTitle": "Gurjão de Frango",
-        "itemDescription": "",
-        "price": ["24.90", "42.90"]
-      },
-      {
-        "itemTitle": "Carne Seca com Aipim",
-        "itemDescription": "",
-        "price": ["39.90", "59.90"]
-      },
-      {
-        "itemTitle": "Gurjão de Frango",
-        "itemDescription": "",
-        "price": ["24.90", "42.90"]
-      },
       {
         "itemTitle": "Bolinho de Bacalhau (10 unidades)",
         "itemDescription": "",
@@ -92,102 +234,6 @@
         "itemTitle": "Pastel de carne/queijo (1 unidade)",
         "itemDescription": "",
         "price": ["4.99", ""]
-      }
-    ]
-  },
-  {
-    "foodType": "Guarnições",
-    "priceTypes": ["", "Inteira"],
-    "menuItems": [
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["", "21.02"]
-      }, 
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["", "21.02"]
-      }
-    ]
-  },
-  {
-    "foodType": "Massas",
-    "priceTypes": ["Meia", "Inteira"],
-    "menuItems": [
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      },
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      }
-    ]
-  },
-  {
-    "foodType": "Carnes",
-    "priceTypes": ["Meia", "Inteira"],
-    "menuItems": [
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      },
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      }
-    ]
-  },
-  {
-    "foodType": "Caldos e Sopas",
-    "priceTypes": ["Meia", "Inteira"],
-    "menuItems": [
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      },
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      }
-    ]
-  },
-  {
-    "foodType": "Pratos Executivos",
-    "priceTypes": ["Meia", "Inteira"],
-    "menuItems": [
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      },
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      }
-    ]
-  },
-  {
-    "foodType": "Bebidas",
-    "priceTypes": ["Meia", "Inteira"],
-    "menuItems": [
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
-      },
-      {
-        "itemTitle": "Lorem Ipsum",
-        "itemDescription": "blah blah",
-        "price": ["21.00", "40.00"]
       }
     ]
   }
