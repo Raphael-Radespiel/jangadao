@@ -48,6 +48,7 @@ function createMenuType(menuData){
 function createMenuPrices(menuPriceArray){
   let priceContainer = document.createElement("div");
   priceContainer.classList.add("menu__price-container");
+  priceContainer.style.width = (menuPriceArray.length == 3) ? "13rem" : "8rem";
 
   for(let i = 0; i < menuPriceArray.length; i++){
     let priceElement = document.createElement("p");

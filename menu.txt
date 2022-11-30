@@ -1,0 +1,334 @@
+# IS TITLE
+! IS ITEM TITLE
+* IS ITEM DESCRIPTION
+& IS PRICE
+
+{
+  "foodType": "Pizzas Doces",
+  "priceTypes": ["Média", "Grande", "Família"],
+  "menuItems": [
+    {
+    "itemTitle": "Banana",
+    "itemDescription": "Banana com canela",
+    "price": ["29.90", "39.90", "54.90"]
+    },
+    {
+    "itemTitle": "Brigadeiro",
+    "itemDescription": "Chocolate e granulado",
+    "price": ["29.90", "39.90", "54.90"]
+    },
+    {
+    "itemTitle": "Brigadeiro com Morango",
+    "itemDescription": "Chocolate e morango",
+    "price": ["32.00", "42.00", "56.90"]
+    },
+    {
+    "itemTitle": "Brigadeiro com Banana",
+    "itemDescription": "Chocolate e banana",
+    "price": ["32.00", "42.00", "56.90"]
+    },
+    {
+    "itemTitle": "Beijinho",
+    "itemDescription": "Doce de coco",
+    "price": ["29.90", "39.90", "54.90"]
+    },
+    {
+    "itemTitle": "Beijinho com Morango",
+    "itemDescription": "Doce de coco e morango",
+    "price": ["32.00", "42.00", "56.90"]
+    },
+    {
+    "itemTitle": "Confete",
+    "itemDescription": "Chocolate e confete",
+    "price": ["29.90", "39.90", "54.90"]
+    },
+    {
+    "itemTitle": "Romeu e Julieta",
+    "itemDescription": "Quejo e doce de goiaba",
+    "price": ["29.90", "39.90", "54.90"]
+    },
+    {
+    "itemTitle": "Paçoca",
+    "itemDescription": "Chocolate e paçoca",
+    "price": ["29.90", "39.90", "54.90"]
+    },
+    {
+    "itemTitle": "Prestigio",
+    "itemDescription": "Chocolate e coco ralado",
+    "price": ["29.90", "39.90", "54.90"]
+    },
+    {
+    "itemTitle": "Salada de Fruta",
+    "itemDescription": "Manga, abacaxi, mamão e calda de morango",
+    "price": ["33.00", "43.00", "56.90"]
+    }
+  ]
+},
+
+
+  {
+    "foodType": "Pratos Executivos",
+    "priceTypes": [""],
+    "menuItems": [
+      {
+        "itemTitle": "Frango a Milanesa ou Grelhado",
+        "itemDescription": "Arroz, feijão farofa, fritas ou salada ",
+        "price": ["18.90"]
+      },
+      {  
+        "itemTitle": "Carre",
+        "itemDescription": "Arroz, feijão, farofa, fritas ou salada",
+        "price": ["19.90"]
+      },
+      {  
+        "itemTitle": "Carre a Mineira",
+        "itemDescription": "Arroz, couve e tutu",
+        "price": ["19.90"]
+      },
+      {  
+        "itemTitle": "Peixe",
+        "itemDescription": "Arroz, feijão, farofa, fritas ou salada",
+        "price": ["24.90"]
+      },
+      {  
+        "itemTitle": "Omelete",
+        "itemDescription": "Arroz, feijão, farofa, fritas ou salada",
+        "price": ["21.90"]
+      },
+      {  
+        "itemTitle": "Contra Filé",
+        "itemDescription": "Arroz, feijão, farofa, fritas ou salada",
+        "price": ["29.90"]
+      },
+      {  
+        "itemTitle": "Bife a Milanesa",
+        "itemDescription": "Arroz, feijão, farofa, fritas ou salada",
+        "price": ["29.90"]
+      }
+    ]
+  },
+
+{
+  "foodType": "Carnes",
+  "priceTypes": ["2 Pessoas", "3 Pessoas"],
+  "menuItems": [
+    {
+      "itemTitle": "Picanha a Campanha",
+      "itemDescription": "Arroz branco, farofa, fritas e molho a campanha ",
+      "price": ["88.90", "149.00"]
+    },
+    {
+      "itemTitle": "Picanha a Grega",
+      "itemDescription": "Arroz a grega, farofa e fritas",
+      "price": ["91.90", "152.00"]
+    },
+    {
+      "itemTitle": "Picanha a Fancesa",
+      "itemDescription": "Arroz branco, farofa e guarnição a francesa",
+      "price": ["97.90", "159.00"]
+    },
+    {
+      "itemTitle": "Picanha Piamontese",
+      "itemDescription": "Arroz piamontese e fritas",
+      "price": ["97.90", "159.00"]
+    },
+    {
+      "itemTitle": "Jangadão",
+      "itemDescription": "Arroz a grega, farofa de ovo, molho a campanha, fritas, banana milanesa e palmito",
+      "price": ["99.00", "165.00"]
+    },
+    {
+      "itemTitle": "Churrasco Misto",
+      "itemDescription": "Carré, contra-filé, linguiça, frango, arroz a grega, farofa de ovo, fritas, molho a campanha, banana e palmito",
+      "price": ["70.00", "120.00"]
+    },
+    {
+      "itemTitle": "Peixe a Dore",
+      "itemDescription": "Arroz com pure de batata",
+      "price": ["69.90", "89.90"]
+    },
+    {
+      "itemTitle": "Peixe a Campanha",
+      "itemDescription": "Arroz, fritas, farofa e molho a campanha",
+      "price": ["72.90", "99.00"]
+    },
+    {
+      "itemTitle": "Peixe a Francesa",
+      "itemDescription": "Arroz branco, farofa e guarnição a francesa",
+      "price": ["72.90", "99.00"]
+    },
+    {
+      "itemTitle": "Contra Filé a Campanha",
+      "itemDescription": "Arroz branco, farofa, fritas e molho a campanha",
+      "price": ["69.90", "102.00"]
+    },
+    {
+      "itemTitle": "Contra Filé a Grega",
+      "itemDescription": "Arroz a grega, farofa e fritas",
+      "price": ["72.90", "108.00"]
+    },
+    {
+      "itemTitle": "Contra Filé a Francesa",
+      "itemDescription": "Arroz branco, farofa e guarnição a francesa",
+      "price": ["78.90", "112.00"]
+    },
+    {
+      "itemTitle": "Contra Filé Piamontese",
+      "itemDescription": "Arroz a piamontese e fritas",
+      "price": ["78.90", "112.00"]
+    },
+    {
+      "itemTitle": "Contra Filé Milanesa",
+      "itemDescription": "Arroz branco e fritas",
+      "price": ["70.00", "103.00"]
+    },
+    {
+      "itemTitle": "Osvaldo Aranha",
+      "itemDescription": "Contra filé com alho torrado em cima, arroz a grega, farofa de ovo e fritas",
+      "price": ["85.00", "108.00"]
+    },
+    {
+      "itemTitle": "Contra Filé da Casa ",
+      "itemDescription": "Arroz a grega, farofa de ovo, fritas, banana empanada, palmito e molho a campanha",
+      "price": ["95.00", "116.00"]
+    },
+    {
+      "itemTitle": "Contra Filé a Cubana",
+      "itemDescription": "Bife à milanesa, arroz branco, banana milanesa, batata palha, tomate a milanesa e cebola milanesa",
+      "price": ["105.00", "130.00"]
+    },
+    {
+      "itemTitle": "Strogonoff",
+      "itemDescription": "Arroz e fritas ou batata palha",
+      "price": ["69.90", "89.90"]
+    },
+    {
+      "itemTitle": "Frango com Purê",
+      "itemDescription": "Arroz e purê de batata",
+      "price": ["49.90", "62.90"]
+    },
+    {
+      "itemTitle": "Frango a Campanha",
+      "itemDescription": "Arroz, fritas, farofa e molho a campanha",
+      "price": ["54.90", "64.90"]
+    },
+    {
+      "itemTitle": "Frango a Francesa",
+      "itemDescription": "Arroz branco, farofa e garnição a francesa",
+      "price": ["59.90", "69.90"]
+    },
+    {
+      "itemTitle": "Frango Parmegiana",
+      "itemDescription": "Arroz branco e purê de batata",
+      "price": ["69.90", "89.90"]
+    },
+    {
+      "itemTitle": "Frango a Cubana",
+      "itemDescription": "Frango milanesa, arroz branco, banana milanesa, batata palha, tomate a milanesa e cebola milanesa",
+      "price": ["92.00", "104.00"]
+    }
+  ]
+},
+{
+  "foodType": "Massas",
+  "priceTypes": [""],
+  "menuItems": [
+    {
+      "itemTitle": "Carreteira",
+      "itemDescription": "Tomate fresco, alho, manjericão (talharim - penne - parafuso - nhoque)",
+      "price": ["29.90"]
+    },
+    {
+      "itemTitle": "Carbonara",
+      "itemDescription": "Bacon, ovos, creme de leite e parmesão (talharim - penne - parafuso - nhoque)",
+      "price": ["29.90"]
+    },
+    {
+      "itemTitle": "Primavera",
+      "itemDescription": "Tomate fresco, mussarela e creme de leite (talharim - penne - parafuso - nhoque)",
+      "price": ["29.90"]
+    },
+    {
+      "itemTitle": "Vulcano ",
+      "itemDescription": "Catupiry, creme de leite, manteiga e tomage fresco (talharim - penne - parafuso - nhoque)",
+      "price": ["29.90"]
+    },
+    {
+      "itemTitle": "A Bolonhesa",
+      "itemDescription": "Carne moida e molho de tomate (talharim - penne - parafuso - nhoque)",
+      "price": ["29.90"]
+    },
+    {
+      "itemTitle": "A Parisiense ",
+      "itemDescription": "Ervilha, presunto, champignon, molho branco e frango (talharim - penne - parafuso - nhoque)",
+      "price": ["29.90"]
+    },
+    {
+      "itemTitle": "Ao Sugo ",
+      "itemDescription": "Molho de tomate (talharim - penne - parafuso - nhoque)",
+      "price": ["24.90"]
+    },
+    {
+      "itemTitle": "Alho e Óleo ",
+      "itemDescription": "(talharim - penne - parafuso - nhoque)",
+      "price": ["24.90"]
+    }
+  ]
+},
+{
+  "foodType": "Salada",
+  "priceTypes": [""],
+  "menuItems": [
+    {
+      "itemTitle": "Simples",
+      "itemDescription": " ",
+      "price": ["9.90"]
+    },
+    {
+      "itemTitle": "Palimto",
+      "itemDescription": " ",
+      "price": ["20.00"]
+    },
+    {
+      "itemTitle": "Siciliana",
+      "itemDescription": " ",
+      "price": ["29.90"]
+    },
+    {
+      "itemTitle": "Maionese",
+      "itemDescription": " ",
+      "price": ["24.90"]
+    },
+    {
+      "itemTitle": "Salpicão",
+      "itemDescription": " ",
+      "price": ["24.90"]
+    }
+  ]
+},
+  {
+    "foodType": "Caldos e Sopas",
+    "priceTypes": [""],
+    "menuItems": [
+      {
+        "itemTitle": "Caldo Verde",
+        "itemDescription": " ",
+        "price": ["15.00"]
+      },
+      {
+        "itemTitle": "Caldo de Mocotó",
+        "itemDescription": " ",
+        "price": ["15.00"]
+      },
+      {
+        "itemTitle": "Sopa de Ervilha",
+        "itemDescription": " ",
+        "price": ["15.00"]
+      },
+      {
+        "itemTitle": "Sopa de Legumes",
+        "itemDescription": " ",
+        "price": ["15.00"]
+      }
+    ]
+  }
