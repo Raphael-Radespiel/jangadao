@@ -149,7 +149,12 @@ a{
   flex: 0 0 auto;
 }
 
-.menu__food-item__price p{
+.menu__food-item__price div{
+  display: flex;
+  flex-direction: column;
+}
+
+.menu__food-item__price div{
   background-color: #D9D9D9;
   padding: 1rem;
   width: 100%;
@@ -443,9 +448,12 @@ footer li{
   .menu__food-item{
     flex-direction: row;
   }
-  .menu__food-item__price p{
+  .menu__food-item__price div{
     width: 4rem;
     padding: 0rem;
+  }
+  .menu__food-item__price-type{
+    display: none;
   }
   
   .bp-1-px-1{

@@ -93,6 +93,7 @@ function createMenuItems(menuItemsArray, priceTypes, menuPriceArray){
     for(let j = 0; j < menuItemsArray[i].price.length; j ++){
       let menuItemPriceDiv = document.createElement("div");
       let menuItemPriceType = document.createElement("p");
+      menuItemPriceType.classList.add("menu__food-item__price-type");
       let menuItemPriceElement = document.createElement("p");
       menuItemPriceElement.textContent = menuItemsArray[i].price[j]; 
       menuItemPriceType.textContent = menuPriceArray[j]; 
