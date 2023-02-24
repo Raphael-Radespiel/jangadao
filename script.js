@@ -17,7 +17,7 @@ async function createMenu(){
     // Create Menu Section
     let menuType = createMenuType(menuArray[i]);
     let menuPriceTypes = createMenuPrices(menuArray[i].priceTypes);
-    let menuItems = createMenuItems(menuArray[i].menuItems, menuPriceTypes);
+    let menuItems = createMenuItems(menuArray[i].menuItems, menuPriceTypes, menuArray[i].priceTypes);
 
     // Add Event Listener 
     setClickEvent(menuType, menuItems);
@@ -59,7 +59,7 @@ function createMenuPrices(menuPriceArray){
   return priceContainer;
 }
 
-function createMenuItems(menuItemsArray, priceTypes){
+function createMenuItems(menuItemsArray, priceTypes, menuPriceArray){
   let menuItemContainer = document.createElement("div");
   menuItemContainer.classList.add("menu__food-item-container");
 
@@ -88,10 +88,16 @@ function createMenuItems(menuItemsArray, priceTypes){
     let menuItemPrice = document.createElement("div"); 
     menuItemPrice.classList.add("menu__food-item__price");
 
+    // ITS HERE!!
+
     for(let j = 0; j < menuItemsArray[i].price.length; j ++){
+      let menuItemPriceDiv = document.createElement("div");
+      let menuItemPriceType = document.createElement("p");
       let menuItemPriceElement = document.createElement("p");
       menuItemPriceElement.textContent = menuItemsArray[i].price[j]; 
-      menuItemPrice.append(menuItemPriceElement);
+      menuItemPriceType.textContent = menuPriceArray[j]; 
+      menuItemPriceDiv.append(menuItemPriceType, menuItemPriceElement);
+      menuItemPrice.append(menuItemPriceDiv);
     }
 
     menuItemElement.append(menuItemContent, menuItemPrice);
