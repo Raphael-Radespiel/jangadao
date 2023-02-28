@@ -243,7 +243,7 @@
   },
   {
     "foodType": "Pratos Executivos",
-    "priceTypes": [""],
+    "priceTypes": ["Um Prato"],
     "menuItems": [
       {
         "itemTitle": "Frango a Milanesa ou Grelhado",
@@ -284,7 +284,7 @@
   },
   {
     "foodType": "Carnes",
-    "priceTypes": ["2 Pessoas", "3 Pessoas"],
+    "priceTypes": ["Serve 2", "Serve 3"],
     "menuItems": [
       {
         "itemTitle": "Picanha a Campanha",
@@ -405,7 +405,7 @@
   },
   {
     "foodType": "Massas",
-    "priceTypes": [""],
+    "priceTypes": ["Um Prato"],
     "menuItems": [
       {
         "itemTitle": "Carreteira",
@@ -456,7 +456,7 @@
       {
         "itemTitle": "Bolinho de Bacalhau (10 unidades)",
         "itemDescription": "",
-        "price": ["", "60.00"]
+        "price": ["n/a", "60.00"]
       },
       {
         "itemTitle": "Linguiça Calabresa",
@@ -476,7 +476,7 @@
       {
         "itemTitle": "Provolone a Milanesa",
         "itemDescription": "",
-        "price": ["", "49.90"]
+        "price": ["n/a", "49.90"]
       },
       {
         "itemTitle": "Picanha Aperitivo",
@@ -491,13 +491,13 @@
       {
         "itemTitle": "Pastel de carne/queijo (1 unidade)",
         "itemDescription": "",
-        "price": ["4.99", ""]
+        "price": ["4.99", "n/a"]
       }
     ]
   },
   {
     "foodType": "Salada",
-    "priceTypes": [""],
+    "priceTypes": ["Uma Porção"],
     "menuItems": [
       {
         "itemTitle": "Simples",
@@ -505,7 +505,7 @@
         "price": ["9.90"]
       },
       {
-        "itemTitle": "Palimto",
+        "itemTitle": "Palmito",
         "itemDescription": " ",
         "price": ["20.00"]
       },
@@ -528,7 +528,7 @@
   },
   {
     "foodType": "Caldos e Sopas",
-    "priceTypes": [""],
+    "priceTypes": ["Um Prato"],
     "menuItems": [
       {
         "itemTitle": "Caldo Verde",
